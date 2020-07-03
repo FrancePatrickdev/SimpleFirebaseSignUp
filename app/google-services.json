@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "968910011416",
+    "firebase_url": "https://mapbox-845f2.firebaseio.com",
+    "project_id": "mapbox-845f2",
+    "storage_bucket": "mapbox-845f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968910011416:android:1e7359a63db1dd5d37176d",
+        "android_client_info": {
+          "package_name": "com.app.firebasetutorial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968910011416-38v3oosodf3ot8qemn3q0hiv6btp4p3r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAMpsdAc86K9as02tKrRTcTAK4cJx_dRQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968910011416-38v3oosodf3ot8qemn3q0hiv6btp4p3r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
