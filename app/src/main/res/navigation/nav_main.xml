@@ -3,11 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_main"
-    app:startDestination="@id/authenticationFragment">
+    app:startDestination="@id/loginFragment">
 
     <fragment
         android:id="@+id/authenticationFragment"
         android:name="com.app.firebasetutorial.fragment.AuthenticationFragment"
         android:label="fragment_authentication"
         tools:layout="@layout/fragment_authentication" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.app.firebasetutorial.fragment.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_authenticationFragment"
+            app:destination="@id/authenticationFragment" />
+    </fragment>
 </navigation>
